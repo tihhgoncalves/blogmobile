@@ -7,14 +7,10 @@
         Tihh Gonçalves
     </author>
     <content src="index.html" />
-
-    <!-- Ícones do App -->
     <icon src="icon.png"/>
     <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
     <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
     <icon src="www/res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>
     <icon src="www/res/icon/android/icon-96-xhdpi.png" gap:platform="android" gap:qualifier="xhdpi"/>
-
-    <!-- Libera links externos -->
     <access origin="*" browserOnly="true" />
 </widget>
