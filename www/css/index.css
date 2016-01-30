@@ -60,16 +60,9 @@ body {
 }
 
 /* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:510px) {
-    .app {
-        background-position:left center;
-        padding:75px 0px 75px 230px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
-                                      /* offset horizontal: half of image width and text area width */
-    }
-}
 
-h1 {
+
+.jatomou {
     font-size:15px;
     font-weight:normal;
     margin:0px;
@@ -78,6 +71,7 @@ h1 {
     margin-bottom: 3px;
     text-align:center;
     text-transform: none;
+    display: block;
 }
 
 .event {
